@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <script type="module" crossorigin src="/assets/index-BGOgVUyw.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C9VWt8PC.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCampus Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>CodeCampus</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Mentors</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <input type="text" placeholder="Search your course..." class="search-bar">
+                <div class="user-profile">
+                    <img src="assets/profile-pic.jpg" alt="User Profile">
+                    <span>Good Morning, Alex</span>
+                </div>
+            </header>
+            
+            <section class="hero">
+                <h2>Sharpen Your Skills With Professional Online Courses</h2>
+                <p>Learn from the best instructors and mentors.</p>
+                <button class="btn-primary">Explore Now</button>
+            </section>
+
+            <section class="content">
+                <div class="section-header">
+                    <h3>Continue Watching</h3>
+                    <a href="#">View All</a>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="assets/course1.jpg" alt="Course Thumbnail">
+                        <h4>Beginner's Guide to Becoming a Professional Developer</h4>
+                        <p>Module 3: Web Development Basics</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/course2.jpg" alt="Course Thumbnail">
+                        <h4>Mastering Advanced JavaScript Concepts</h4>
+                        <p>Module 5: Advanced Topics</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Profile Section -->
+        <aside class="profile-section">
+            <div class="user-info">
+                <img src="assets/profile-pic.jpg" alt="Profile Picture">
+                <h3>Alex Johnson</h3>
+                <p>Community Member | Developer</p>
+            </div>
+            <div class="mentor-list">
+                <h4>Your Mentors</h4>
+                <ul>
+                    <li>Mary Morgan</li>
+                    <li>John Doe</li>
+                    <li>Sarah Williams</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
 </html>
