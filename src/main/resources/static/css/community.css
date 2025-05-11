@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.community-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
