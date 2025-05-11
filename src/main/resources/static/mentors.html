@@ -3,34 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentors - CodeCampus</title>
-    <link rel="stylesheet" href="./css/mentors.css">
+    <title>Mentors</title>
+    <link rel="stylesheet" href="css/mentors.css">
 </head>
 <body>
-    <header class="main-header">
-        <h1>Mentors</h1>
-    </header>
-    <main>
-        <section class="mentor-list">
-            <h2>Our Mentors</h2>
-            <div class="mentor-grid">
-                <div class="mentor-card">
-                    <h3>Mary Morgan</h3>
-                    <p>Expert in Full-Stack Development.</p>
-                </div>
-                <div class="mentor-card">
-                    <h3>John Doe</h3>
-                    <p>Specialist in Data Science and Machine Learning.</p>
-                </div>
-                <div class="mentor-card">
-                    <h3>Sarah Williams</h3>
-                    <p>UI/UX Designer and Front-End Developer.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 CodeCampus. All rights reserved.</p>
-    </footer>
+
+<header>
+    <div class="header-content">
+        <h1>Meet Our Mentors</h1>
+        <p>Your guide to success</p>
+    </div>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search mentors by name or expertise..." class="search-bar">
+</div>
+
+<div class="mentors-container" id="mentors-container">
+    <!-- Mentor cards will be dynamically inserted here -->
+</div>
+
+<script src="js/mentors.js"></script>
 </body>
 </html>

@@ -3,28 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community - CodeCampus</title>
-    <link rel="stylesheet" href="./css/community.css">
+    <title>Community</title>
+    <link rel="stylesheet" href="css/community.css">
 </head>
 <body>
-    <header class="main-header">
-        <h1>Community</h1>
-    </header>
-    <main>
-        <section class="community-intro">
-            <h2>Join Our Community</h2>
-            <p>Connect, collaborate, and grow with like-minded developers.</p>
-        </section>
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <ul>
-                <li><strong>Hackathon:</strong> Compete in a 48-hour coding challenge. <em>(July 20, 2025)</em></li>
-                <li><strong>Webinar Wednesdays:</strong> Weekly webinars on the latest tech trends.</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 CodeCampus. All rights reserved.</p>
-    </footer>
+
+<header>
+    <h1>Our Community</h1>
+</header>
+
+<div class="search-container">
+    <input type="text" id="search-bar" placeholder="Search community members by name or role..." class="search-bar">
+</div>
+
+<div class="community-container" id="community-container">
+    <!-- Community member cards will be dynamically inserted here -->
+</div>
+
+<script src="js/community.js"></script>
 </body>
 </html>

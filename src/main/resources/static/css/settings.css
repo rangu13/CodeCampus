@@ -1,33 +1,67 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.settings-container {
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.settings-form {
-    max-width: 400px;
-    margin: 0 auto;
+.settings-section {
+    margin-bottom: 20px;
 }
 
-form label {
+.settings-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.settings-section label {
     display: block;
-    margin: 10px 0 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
 }
 
-form input {
+.settings-section input,
+.settings-section select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-size: 14px;
 }
 
-form button {
+button {
     display: block;
     width: 100%;
     padding: 10px;
-    background: #007bff;
-    color: #fff;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
